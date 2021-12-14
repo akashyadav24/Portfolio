@@ -280,11 +280,11 @@ nav ul li a{
 .me-container .name-me{
     position: relative;
     display: inline-block;
-    color: var(--toggle-color);
+    color: #ff6380;
     animation: bounce2 .6s infinite;
 }
 .me-container .name-me{
-    color: orangered;
+    color: #ff6380;
 }
 .dark .social a{
     color: var(--background-color);
@@ -351,10 +351,11 @@ nav ul li a{
     font-size: 4rem;
     transform: rotate(90deg);
     z-index: -1;
-    color: rgba(200,200,200,.1);
+    color: rgba(50, 241, 255, 0.664);
 }
 #projects::after{
-    color:rgba(0,0,0,.1)
+    
+    color: rgba(15, 15, 15, 0.3);
 }
 #projects .header p{
     color: #212121;
@@ -446,15 +447,19 @@ nav ul li a{
     height: 100vh;
 }
 #skills::after,.dark #skills::after{
-    content: "SKILLS";
+    
+    
+    border-radius: 5%;
+    content: "SKILLS" ;
     position: absolute;
     right: 5%;
     bottom: 30vh;
     font-size: 4rem;
-    color: rgba(200,200,200,.1)
+    color:rgba(248, 91, 91, 0.753)
+    
 }
 #skills::after{
-    color:rgba(0,0,0,.1)
+    color:rgba(248, 91, 91, 0.753)
 }
 #skills::before,.dark #skills::before{
     content: "ABOUT ME";
@@ -462,10 +467,10 @@ nav ul li a{
     left: 1%;
     top: 6%;
     font-size: 4rem;
-    color: rgba(200,200,200,.1);
+    color:rgba(119, 255, 130, 0.842)
 }
 #skills::before{
-    color:rgba(0,0,0,.1)
+    color:rgba(119, 255, 130, 0.842)
 }
 
 .skill-container,
@@ -608,7 +613,7 @@ nav ul li a{
     transform: translateX(-50%);
     font-size: 4rem;
     z-index: -1;
-    color: rgba(200,200,200,.1);
+    color: rgba(219, 128, 255, 0.76);
 }
 #education::after{
     color:rgba(0,0,0,.1)
